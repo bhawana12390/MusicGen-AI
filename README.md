@@ -1,11 +1,5 @@
 # MusicGenAI
 
-## Demonstration
-
-https://github.com/CrypticOwl5503/MusicGenAI/assets/92156713/4e15427a-ded3-4e0a-865e-492e87f9b61b
-
-
-
 ## Screenshots
 
 ### Homepage
@@ -137,11 +131,11 @@ The dataset was filtered by artist popularity and includes attributes like dance
 
 #### Training Dataset
 
-We trained on 20K hours of licensed music, including 10K high-quality tracks and data from ShutterStock and Pond5.
+It was trained on 20K hours of licensed music, including 10K high-quality tracks and data from ShutterStock and Pond5.
 
 #### Evaluation Dataset
 
-For evaluation, we used the MusicCaps benchmark (Agostinelli et al., 2023) and in-domain held-out evaluation sets.
+For evaluation, I used the MusicCaps benchmark (Agostinelli et al., 2023) and in-domain held-out evaluation sets.
 
 ## Information Retrieval Model
 
@@ -163,7 +157,7 @@ Ranked results include compositional similarity scores and average similarity fr
 
 #### Image-Text Generation
 
-We used BLIP model for image-to-text generation, effectively utilizing noisy web data.
+I used BLIP model for image-to-text generation, effectively utilizing noisy web data.
 
 #### Model Architecture
 
@@ -199,7 +193,3 @@ Using an autoregressive transformer-based decoder conditioned on text or melody 
 - Briggs, J. (2021). NLP similarity metrics | towards data science. Similarity Metrics in NLP, from Similarity Metrics.
 
 ---
-
-This `README.md` file provides an overview of how to set up and run both the Image to Music Recommendation and Image to Music Generation (MusicGenAI) components of the project, along with details about datasets, models, and resources used.
-
-
